@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with FoodHut landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Le Vintro | From Rome To New York</title>
+    <link rel="icon" type="image/x-icon" href="assets/imgs/Layer_2.svg">
+    <link rel="stylesheet" href="assets/css/foodhut.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+        h1 {
+    text-align: center;
+    margin: revert;
+    font-family: 'Rye', cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h2 {
+    font-family: 'Rye', cursive;
+}
+
+.main {
+  width: 1170px;
+  margin: 100px auto;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.section-title h2 {
+  text-transform: capitalize;
+  font-size: 35px;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+.section-title h2:before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 3px;
+  background-color: #00875c;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.menus {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.menu-column {
+  width: 31%;
+}
+.menu-column h4 {
+  text-transform: capitalize;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  position: relative;
+  padding-bottom: 10px;
+}
+.menu-column h4:before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 2px;
+  background-color: #00875c;
+  bottom: 0;
+}
+.single-menu {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+.single-menu img {
+  border-radius: 50%;
+  max-width: 110px;
+  border: 1px dashed #ddd;
+  padding: 3px;
+  margin-right: 15px;
+  transition: .3s;
+}
+.single-menu:hover img{
+    transform: rotate(360deg);
+}
+.single-menu .menu-content h5 {
+  text-transform: capitalize;
+  font-size: 22px;
+  font-weight: 500;
+  border-bottom: 1px dashed #222;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+.single-menu .menu-content h5 span {
+  color: tomato;
+  float: right;
+  font-weight: 600;
+  font-style: italic;
+}
+
+
+nav.custom-navbar.navbar.navbar-expand-lg.navbar-dark.fixed-top {
+    position: initial;
+}
+    </style>
+</head>
+<body>
+    <nav class="custom-navbar navbar navbar-expand-lg navbar-dark fixed-top" data-spy="affix" data-offset-top="10">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="menupdf.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#gallary">Category</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+            <a class="navbar-brand m-auto" href="index.html">
+                <img src="assets/imgs/Le VINTRO W.svg" class="brand-img" alt="">
+            </a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#blog">Blog<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#testmonial">Reviews</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="main">
+        <div class="section-title">
+            <h2>Plats Cuisinés</h2>
+        </div>
+        <div class="menus">
+            <div class="menu-column">
+                <div class="single-menu">
+                    <img src="https://via.placeholder.com/150C" alt="">
+                    <div class="menu-content">
+                        <h5>food title <span>$50</span></h5>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+                <div class="single-menu">
+                    <img src="https://via.placeholder.com/150C" alt="">
+                    <div class="menu-content">
+                        <h5>food title <span>$50</span></h5>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+                <div class="single-menu">
+                    <img src="https://via.placeholder.com/150C" alt="">
+                    <div class="menu-content">
+                        <h5>food title <span>$50</span></h5>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-column">
+                <div class="single-menu">
+                    <img src="https://via.placeholder.com/150C" alt="">
+                    <div class="menu-content">
+                        <h5>food title <span>$50</span></h5>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+                <div class="single-menu">
+                    <img src="https://via.placeholder.com/150C" alt="">
+                    <div class="menu-content">
+                        <h5>food title <span>$50</span></h5>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+                <div class="single-menu">
+                    <img src="https://via.placeholder.com/150C" alt="">
+                    <div class="menu-content">
+                        <h5>food title <span>$50</span></h5>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-column">
+                <div class="single-menu">
+                    <img src="https://via.placeholder.com/150C" alt="">
+                    <div class="menu-content">
+                        <h5>food title <span>$50</span></h5>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+                <div class="single-menu">
+                    <img src="https://via.placeholder.com/150C" alt="">
+                    <div class="menu-content">
+                        <h5>food title <span>$50</span></h5>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+                <div class="single-menu">
+                    <img src="https://via.placeholder.com/150C" alt="">
+                    <div class="menu-content">
+                        <h5>food title <span>$50</span></h5>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
